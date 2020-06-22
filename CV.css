@@ -9,3 +9,6 @@
 .rubrique{
 	text-decoration: underline #AB5408;
 }
+img{
+	border-radius: 80% 80% 80% 80%;
+}
