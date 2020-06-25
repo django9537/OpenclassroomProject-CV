@@ -1,3 +1,7 @@
+#conteneur{
+	display: flex;
+	justify-content: space-between;
+}
 #nom{
 	color: #AB5408;
 	font-weight: bold;
@@ -10,5 +14,47 @@
 	text-decoration: underline #AB5408;
 }
 img{
-	border-radius: 80% 80% 80% 80%;
+	border-radius: 50%;
+	margin-top: 65px;
+	margin-left: 70px;
+	margin-bottom:20px;
+
+}
+header{
+	order: 2;
+	margin-top: 118px;
+}
+aside{
+	order: 1;
+	width: 382px;
+	background-color: #AB5408;
+}
+aside h3,a{
+	text-align: center;
+}
+aside h3{
+	height: 25px;
+	background-color: black;
+	color: #AB5408;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.element{
+	order: 3;
+	width: 66%;
+}
+section{
+	order: 4;
+}
+#sm_conteneur{
+	display: flex;
+	justify-content: space-between;
+}
+#sm_conteneur2{
+	display: flex;
+	justify-content: space-between;
+}
+ul{
+	list-style-type: none;
 }
