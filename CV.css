@@ -1,3 +1,7 @@
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
 #conteneur{
 	display: flex;
 	justify-content: space-between;
@@ -23,21 +27,22 @@ img{
 header{
 	order: 2;
 	margin-top: 90px;
+	margin-left: 50px;
 }
 header h3{
-	margin-top: 0px;
+	padding-top: 0px;
 }
 aside{
 	order: 1;
 	width: 382px;
 	background-color: #AB5408;
 }
-aside h3,a{
+aside h3,a,p,.LOISIRS{
 	text-align: center;
 }
 aside h3{
 	height: 25px;
-	background-color: black;
+	background-color: gray;
 	color: #AB5408;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -53,9 +58,11 @@ section{
 	flex-direction: column;
 	height: 220px;
 	justify-content: space-between;
+	width: 700px;
+	margin-left: 50px;
 }
+
 #sm_conteneur{
-	justify-content: space-between;
 	display: flex;
 	justify-content: space-around;
 }
@@ -66,4 +73,14 @@ ul{
 h2{
 	width: 700px;
 	border-bottom:solid #AB5408;
+}
+aside,i{
+	color: black;
+}
+.LOISIRS{
+	display: flex;
+	justify-content: space-around;
+}
+section i{
+	color: #AB5408
 }
