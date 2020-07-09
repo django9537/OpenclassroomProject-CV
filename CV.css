@@ -1,0 +1,99 @@
+body{
+	font-family: "Montserrat", sans-serif;
+	margin: 0 0 0 0;
+}
+
+#conteneur{
+	display: flex;
+	justify-content: space-between;
+}
+#nom{
+	color: #AB5408;
+	font-weight: bold;
+}
+
+#souligne{
+	text-decoration: underline #AB5408;
+}
+.rubrique{
+	text-decoration: underline #AB5408;
+}
+img{
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-bottom:20px;
+
+}
+header{
+	order: 2;
+	margin-top: 70px;
+	margin-left: 50px;
+}
+header h3{
+	padding-bottom: 20px;
+}
+aside{
+	order: 1;
+	width: 382px;
+	background-color: #AB5408;
+}
+aside h3,a,.LOISIRS{
+	text-align: center;
+}
+aside h3{
+	height: 25px;
+	background-color: gray;
+	color: #AB5408;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.element{
+	order: 3;
+	width: 66%;
+}
+section{
+	order: 4;
+	margin-left: 50px;
+}
+
+ul{
+	list-style-type: none;
+}
+h2{
+	width: 770px;
+	border-bottom:solid #AB5408;
+}
+aside,i{
+	color: black;
+}
+.LOISIRS{
+	display: flex;
+	justify-content: space-around;
+}
+section i{
+	color: #AB5408
+}
+.class{
+	text-align: center;
+}
+.diplome{
+	display: flex;
+	width: 650;
+}
+.diploma i,{
+	width:2%;
+}
+.diplome_date{
+	width:15%;
+}
+h4 
+{
+	margin-top: 0px;
+}
+.indication{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
