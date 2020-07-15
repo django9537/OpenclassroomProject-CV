@@ -70,7 +70,6 @@ h2{
 }
 aside,i{
 	color: black;
-	b
 }
 .LOISIRS{
 	display: flex;
@@ -128,7 +127,7 @@ h4
 		border-bottom: solid #AB5408; 
 	}
 	
-	}
+	
 	section{
 		display: flex;
 		flex-direction: column;
@@ -142,5 +141,4 @@ h4
 	}
 	.diplome_contenu{
 		margin-left: 50px;
-	}
 }
