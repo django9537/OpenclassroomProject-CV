@@ -5,7 +5,6 @@ body{
 
 #conteneur{
 	display: flex;
-	justify-content: space-between;
 }
 #nom{
 	color: #AB5408;
@@ -25,6 +24,7 @@ img{
 	margin-bottom:20px;
 	margin-right: 50px;
 
+
 }
 header{
 	order: 2;
@@ -38,7 +38,7 @@ header h3{
 }
 aside{
 	order: 1;
-	width: 382px;
+	width: 400px;
 	background-color: #AB5408;
 }
 aside h3,a,.LOISIRS{
@@ -54,7 +54,7 @@ aside h3{
 
 .element{
 	order: 3;
-	width: 66%;
+	margin-left: 40px;
 }
 section{
 	order: 4;
@@ -75,7 +75,7 @@ aside,i{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 50px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
 }
 section i{
 	color: #AB5408
@@ -109,9 +109,6 @@ h4
 		flex-direction: column-reverse;
 		
 	}
-	header{
-		
-	}
 	aside{
 		width: 100%;
 		display: flex;
@@ -141,4 +138,10 @@ h4
 	}
 	.diplome_contenu{
 		margin-left: 50px;
+	}
+	aside ul p,{
+		font-size: 1em;
+	}
+	aside h3,{
+		font-size: 1.3em;
 }
