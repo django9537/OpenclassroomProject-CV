@@ -85,7 +85,8 @@ section i{
 }
 .diplome{
 	display: flex;
-	margin-top: 25px;
+	margin-top: 40px;
+	margin-bottom: 25px;
 }
 
 .diplome_date{
@@ -131,6 +132,7 @@ h4
 	}
 	.element{
 		width: auto;
+		margin-left: 0;
 	}
 	.diplome_date{
 		width: 100px;
@@ -139,9 +141,13 @@ h4
 	.diplome_contenu{
 		margin-left: 50px;
 	}
-	aside ul p,{
+	aside ul,{
 		font-size: 1em;
 	}
 	aside h3,{
-		font-size: 1.3em;
+		font-size: 1.4em;
+	}
+	aside p,{
+		font-size: 1em,
+	}
 }
