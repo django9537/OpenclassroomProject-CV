@@ -139,13 +139,12 @@ h4
 	.diplome_contenu{
 		margin-left: 50px;
 	}
-	aside ul,{
+	aside ul{
 		font-size: 1em;
 	}
-	aside h3,{
+	aside h3{
 		font-size: 1.4em;
 	}
-	aside p,{
-		font-size: 1em,
-	}
+	aside p{
+		font-size: 1em;
 }
